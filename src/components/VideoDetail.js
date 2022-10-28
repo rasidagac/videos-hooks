@@ -7,7 +7,7 @@ const VideoDetail = ({ video }) => {
 		<div>
 			<div className="ui embed">
 				<iframe
-					src={`https://www.youtube-nocookie.com/embed/${video.id.videoId}`}
+					src={`https://www.youtube.com/embed/${video.id.videoId}`}
 					title={video.snippet.title}
 				/>
 			</div>
